@@ -289,7 +289,6 @@ p strong{
     border-radius: 20px;
     transition: 1.5s;
 }
-
 .card{
     width: 28%;
     height: 220px;
@@ -300,26 +299,26 @@ p strong{
     transition: 1.2s;
     z-index: 11;
 }
-.card:hover{
-    box-shadow: 0px 0px 12px 5px aqua , 0px 0px 20px 15px black;
-    scale: 1.03;
-    transition: .8s;
-}
-.card:hover .content-2 h2{
-    text-shadow: 0px 0px 10px aqua;
-    transition: 1.5s;
-}
-.card:hover .icon-shadow{
-    text-shadow: 0px 0px 7px aqua;
-    transition: 1.5s;
-}
-.card:hover .content-2 a{
-    text-shadow: 0px 0px 7px red;
-    transition: 1.5s;
-}
-.card:hover .icon-shadow{
-    scale: 1.2;
-}
+            /* .card:hover{
+                box-shadow: 0px 0px 12px 5px aqua , 0px 0px 20px 15px black;
+                scale: 1.03;
+                transition: .8s;
+            }
+            .card:hover .content-2 h2{
+                text-shadow: 0px 0px 10px aqua;
+                transition: 1.5s;
+            }
+            .card:hover .icon-shadow{
+                text-shadow: 0px 0px 7px aqua;
+                transition: 1.5s;
+            }
+            .card:hover .content-2 a{
+                text-shadow: 0px 0px 7px red;
+                transition: 1.5s;
+            }
+            .card:hover .icon-shadow{
+                scale: 1.2;
+            } */
 .content-2{
     text-align: center;
     text-transform: capitalize;
@@ -430,9 +429,9 @@ p strong{
     width: 100%;
     height: 98%;
 }
-.container-2:hover{
-    box-shadow: 0px 0px 12px 8px aqua , 0px 0px 20px 15px black;
-}
+            /* .container-2:hover{
+                box-shadow: 0px 0px 12px 8px aqua , 0px 0px 20px 15px black;
+            } */
 
 .container-2::before{
     content: '';
@@ -483,9 +482,9 @@ p strong{
     position: relative;
     transition: .8s;
 }
-.product:hover{
-    scale: 1.03;
-}
+            /* .product:hover{
+                scale: 1.03;
+            } */
 .div1-3{
     height: 60px;
     z-index: 11;
@@ -613,7 +612,7 @@ p strong{
     width: 100%;
     height: 100%;
     transition: 2s;
-    box-shadow: 0px 0px 20px 5px red , 0px 0px 30px 15px black;
+                /* box-shadow: 0px 0px 20px 5px red , 0px 0px 30px 15px black; */
 }
 .product2{
     margin: 0 5%;
@@ -725,9 +724,9 @@ p strong{
 .container2-4{
     padding-top: 2.25%;
 }
-.feature:hover{
-    box-shadow: 1px 1px 15px 5px aqua , 1px 1px 25px 15px black;
-}
+            /* .feature:hover{
+                box-shadow: 1px 1px 15px 5px aqua , 1px 1px 25px 15px black;
+            } */
 
 /* ====================================== // section-5 \\ ====================================== */
 
@@ -988,7 +987,7 @@ p strong{
     background-color: black;
     color: aqua;
     transition: 2s;
-    box-shadow: 0px 0px 7px 3px aqua;
+    /* box-shadow: 0px 0px 7px 3px aqua; */
 }
 .offer::after{
     content: '';
@@ -1025,14 +1024,14 @@ p strong{
 .offer:hover .btn7{
     background-color: aqua;
     color: black;
-    box-shadow: 0px 0px 5px 4px black , 0px 0px 3px 7px aqua;
-    text-shadow: 0px 0px 5px black;
+    /* box-shadow: 0px 0px 5px 4px black , 0px 0px 3px 7px aqua; */
+    /* text-shadow: 0px 0px 5px black; */
 }
-.offer:hover{
-    box-shadow: 0px 0px 12px 4px aqua, 0px 1px 12px 12px black;
-    scale: 1.03;
-    transition: .7s;
-}
+            /* .offer:hover{
+                box-shadow: 0px 0px 12px 4px aqua, 0px 1px 12px 12px black;
+                scale: 1.03;
+                transition: .7s;
+            } */
 .offer2{
     background: url(../imgs/bg-offer2.jpg) center / cover;
 }
@@ -1098,6 +1097,7 @@ p strong{
     border-radius: 50%;
     float: left;
     margin: 20px;
+    outline: 3px solid aqua;
 }
 .cont-fin{
     width: 345px;
@@ -1161,13 +1161,13 @@ p strong{
 .marg3 h2{
     letter-spacing: 1px;
 }
-.parent-8:hover{
+/* .parent-8:hover{
     box-shadow: 0px 1px 20px 10px aqua , 0px 5px 30px 20px black;
 }
 .parent-8:hover .small-circ-img{
     box-shadow: 0px 0px 13px 5px aqua;
     transition: 1s;
-}
+} */
 /* ====================================== // section-9 \\ ====================================== */
 
 .sec-9{
@@ -1248,7 +1248,11 @@ p strong{
     float: right;
     cursor: pointer;
     margin-top: 11px;
-    transition: 1s;
+    /* box-shadow: 0px 0px 6px 3px aqua; */
+    /* transition: 1s; */
+}
+.ico-9:hover{
+    outline: 2px solid aqua;
 }
 .cont-icoo{
     width: fit-content;
@@ -1272,7 +1276,6 @@ p strong{
     transition: 1s;
     opacity: 0;
     border-radius: 20px;
-    /* box-shadow: 0px 0px 10px 5px aqua; */
 }
 .item:hover::after{
     width: 100%;
@@ -1319,37 +1322,36 @@ p strong{
 }
 .item:hover .hoh2{
     color: #2effff;
-    text-shadow: 2px 2px 3px #00ffff;
+    /* text-shadow: 2px 2px 3px #00ffff; */
 }
 .item:hover .hoh3{
     color: #1362ff;
-    text-shadow: 1px 1px 3px #1362ff;
-    
+    /* text-shadow: 1px 1px 3px #1362ff; */
 }
 .item:hover .hop{
     color: #3fff99;
-    text-shadow: 1px 1px 3px #3fff99;
+    /* text-shadow: 1px 1px 3px #3fff99; */
 }
-.item:hover{
-    box-shadow: 0px 0px 15px 8px aqua;
-    scale: 1.03;
-}
+            /* .item:hover{
+                box-shadow: 0px 0px 15px 8px aqua;
+                scale: 1.03;
+            } */
 .snpd-img2{
     background: url(../imgs/apple.jpg) center / cover;
 }
 .snpd-img3{
     background: url(../imgs/mediatek.jpg) center / cover;
 }
-.ico-9:hover{
-    box-shadow: 0px 0px 8px 5px aqua;
-}
-.item:hover .snapdragon-img{
-    box-shadow: 0px 0px 6px 5px aqua;
-}
-.parent-9:hover{
-    /* transition: 1s; */
-    box-shadow: 0px 0px 15px 8px aqua;
-}
+            /* .ico-9:hover{
+                box-shadow: 0px 0px 8px 5px aqua;
+            }
+            .item:hover .snapdragon-img{
+                box-shadow: 0px 0px 6px 5px aqua;
+            }
+            .parent-9:hover{
+                box-shadow: 0px 0px 15px 8px aqua;
+            } */
+
 /* ====================================== // section-10 \\ ====================================== */
 
 .sec-10{
@@ -1383,9 +1385,9 @@ p strong{
     transition: 1s;
     float: left;
 }
-.container10:hover{
-    scale: 1.03;
-}
+            /* .container10:hover{
+                scale: 1.03;
+            } */
 .img10{
     width: 200px;
     height: 200px;
@@ -1394,9 +1396,9 @@ p strong{
     margin-bottom: 40px;
     transition: 1s;
 }
-.container10:hover .img10{
-    box-shadow: 0px 0px 8px 5px aqua;
-}
+            /* .container10:hover .img10{
+                box-shadow: 0px 0px 8px 5px aqua;
+            } */
 .span10{
     /* background-color: red; */
     margin-right: 10px;
@@ -1425,9 +1427,9 @@ p strong{
     border-radius: 50%;
     transition: 1s;
 }
-.container10:hover .h3-s10{
+/* .container10:hover .h3-s10{
     box-shadow: 0px 0px 8px 5px aqua;
-}
+} */
 .p10{
     font-size: 15px;
     letter-spacing: .8px;
@@ -1436,7 +1438,7 @@ p strong{
     width: fit-content;
     padding: 5px;
     background-color: aqua;
-    /* border-radius: 8px; */
+    /* border-radius: 15px; */
     margin: 25px 0;
     color: rgb(0, 0, 0);
     font-size: 18.5px;
@@ -1445,13 +1447,12 @@ p strong{
     color: red;
     font-size: 13px;
     letter-spacing: 1.5px;
-    /* font-weight: 600; */
 }
 .shop{
     width: 120px;
     height: 30px;
     font-size: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
     cursor: pointer;
     z-index: 11;
     position: relative;
@@ -1462,9 +1463,9 @@ p strong{
     background-color: black;
     color: aqua;
     border: 2px solid aqua;
-    scale: 1.05;
+    /* scale: 1.05; */
     font-size: 16px;
-    box-shadow: 0px 0px 5px 1px aqua;
+    /* box-shadow: 0px 0px 5px 1px aqua; */
 }
 .container10::after{
     content: '';
@@ -1496,7 +1497,7 @@ p strong{
 
 /* .footer{
     height: 55vh;
-    background-color: rgba(0, 122, 122, 0.573);
+    background-color: rgb(0, 41, 58);
     margin-top: 200px;
     text-align: center;
     padding-top: 15px;
@@ -1527,7 +1528,7 @@ p strong{
     transition: 1s;
 }
 .aicoo:hover .foot-ico{
-    text-shadow: 1px 1px 5px aqua;
+    /* text-shadow: 1px 1px 5px aqua; * /
     transition: .8s;
 }
 .aicoo::after{
@@ -1542,7 +1543,7 @@ p strong{
 
     outline: 3px solid aqua;
     border-radius: 50%;
-    transition: 1s;
+    transition: .8s;
     opacity: 0;
 }
 .aicoo:hover::after{
@@ -1550,25 +1551,25 @@ p strong{
     height: 100%;
     opacity: 1;
 }
-.aicoo:hover{
-    box-shadow: 0px 0px 7px 5.5px aqua;
-}
+            /* .aicoo:hover{
+                box-shadow: 0px 0px 7px 5.5px aqua;
+            } * /
 .footer p{
     font-size: 17px;
     color: white;
     letter-spacing: .7px;
 }
 .snow{
-    font-size: 60px;
+    font-size: 45px;
     color: aqua;
     background-color: black;
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     margin-top: 40px;
     cursor: pointer;
     text-align: center;
-    padding: 6px;
-    box-shadow: 0px 0px 15px 7px aqua;
+    padding: 5px;
+    /* box-shadow: 0px 0px 15px 7px aqua; * /
     border-radius: 50%;
 }
 p .def{
@@ -1579,7 +1580,7 @@ p .def{
     border-radius: 20px;
     display: inline-block;
     background-color: black;
-    box-shadow: 0px 0px 8px 6px aqua;
+    /* box-shadow: 0px 0px 8px 6px aqua; *  /
     cursor: pointer;
 } */
 
@@ -1596,9 +1597,14 @@ p .def{
     height: 120px;
     background: url(../imgs/logooo-removebg2.png) center / cover;
     margin: auto;
-    box-shadow: 0px 0px 15px 8px aqua;
+    /* box-shadow: 0px 0px 15px 8px aqua; */
     border-radius: 50%;
+    outline: 3.5px solid aqua;
     margin-top: 35px;
+    transition: .5s;
+}
+.footer-logo:hover{
+    outline: 17px solid aqua;
 }
 .line-foot{
     width: 200px;
@@ -1608,7 +1614,7 @@ p .def{
     border-radius: 50%;
     margin: auto;
     margin-top: -25px;
-    box-shadow: 0px -40px 120px 6px aqua;
+    /* box-shadow: 0px -40px 120px 6px aqua; */
     margin-bottom: 10px;
 }
 .parent-foot{
@@ -1674,7 +1680,7 @@ p .def{
 
     outline: 3px solid aqua;
     border-radius: 50%;
-    transition: 1s;
+    transition: .8s;
     opacity: 0;
 }
 .a-ico:hover::after{
@@ -1682,16 +1688,16 @@ p .def{
     height: 100%;
     opacity: 1;
 }
-.a-ico:hover{
-    box-shadow: 0px 0px 6px 4px aqua;
-}
+            /* .a-ico:hover{
+                box-shadow: 0px 0px 6px 4px aqua;
+            } */
 .tall-line{
     width: .20%;
     height: 290px;
     background-color: aqua;
     border-radius: 50%;
     float: left;
-    box-shadow: 0px 0px 6px 1px aqua;
+    /* box-shadow: 0px 0px 6px 1px aqua; */
     margin-top: 2%;
 }
 .tall-line2{
@@ -1747,30 +1753,39 @@ p .def{
     cursor: pointer;
     text-align: center;
     padding: 3px;
-    box-shadow: 0px 0px 10px 3px aqua;
+    /* box-shadow: 0px 0px 10px 3px aqua; */
     border-radius: 50%;
-    transition: 1s;
+    transition: .7s;
+}
+.snow:hover{
+    color: black;
+    background-color: aqua;
+    box-shadow: 0px 0px 10px 3px aqua;
 }
 .madk{
     color: aqua;
+    background-color: black;
     font-size: 20px;
     width: 150px;
     height: 25.5px;
     border-radius: 20px;
     display: inline-block;
-    background-color: black;
-    box-shadow: 0px 0px 6px 2.5px aqua;
+    /* box-shadow: 0px 0px 6px 2.5px aqua; */
     cursor: pointer;
+}
+.madk:hover{
+    color: black;
+    background-color: aqua;
 }
 .und-line{
     width: 80%;
-    height: 2.5px;
+    height: 3px;
     background-color: aqua;
     position: absolute;
     top: 102%;
     left: 10%;
     border-radius: 50%;
-    box-shadow: 0px 0px 6px 1px aqua;
+    /* box-shadow: 0px 0px 6px 1px aqua; */
 }
 .und-line2{
     width: 80%;
@@ -1780,5 +1795,25 @@ p .def{
     position: absolute;
     bottom: 100%;
     left: 10%;
-    box-shadow: 0px 0px 8px 1px aqua;
+    /* box-shadow: 0px 0px 8px 1px aqua; */
+}
+.und-line3{
+    width: .20%;
+    height: 7860px;
+    background-color: aqua;
+    /* border-radius: 50%; */
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    /* box-shadow: 0px 0px 8px 1px aqua; */
+}
+.line4{
+    width: .20%;
+    height: 7860px;
+    background-color: aqua;
+    /* border-radius: 50%; */
+    position: absolute;
+    bottom: 0%;
+    /* box-shadow: 0px 0px 8px 1px aqua; */
+    left: 99.81%;
 }
