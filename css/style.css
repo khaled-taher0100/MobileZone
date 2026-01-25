@@ -1052,6 +1052,7 @@ p strong{
     background-attachment: fixed;
     position: relative;
     transition: 1.5s;
+    overflow: hidden;
 }
 .overlay-8{
     width: 100%;
@@ -1776,6 +1777,7 @@ p .def{
 .madk:hover{
     color: black;
     background-color: aqua;
+    outline: 2px solid black;
 }
 .und-line{
     width: 80%;
@@ -1817,3 +1819,4 @@ p .def{
     /* box-shadow: 0px 0px 8px 1px aqua; */
     left: 99.81%;
 }
+
